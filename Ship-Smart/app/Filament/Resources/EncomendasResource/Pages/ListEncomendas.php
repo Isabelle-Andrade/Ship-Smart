@@ -14,7 +14,7 @@ class ListEncomendas extends ListRecords
     {
         return [
             Actions\CreateAction::make()
-                ->label('Novo Pedido')  
+                ->label('Nova Encomenda')  
                 ->icon('heroicon-o-plus'),
         ];
     }
